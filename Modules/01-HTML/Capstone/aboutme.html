@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Irfan</title>
+</head>
+
+<style>
+    table{
+        width: 100%;
+    }
+
+    td, th{
+    border: 1px solid black; 
+    text-align: left;
+    padding: 8px;
+   }
+</style>
+
+<body>
+    <header>
+        <h1>Navigational Links</h1>
+        <nav>
+            <ul>
+                <li><a href="#abotme">About Me Page</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="aboutme">
+            <h1>About Me</h1>
+            <p>I am Muhammad Irfan bin Shaarani, i am 22 years old. What i am doing now is learn coding while doing self-improvement that i learn from Hamza Ahmad so that i can achieve discipline and be a High Value Man</p>
+
+        <table id="tables">
+            <tr>
+                <th>Number</th>
+                <th>Goal</th>
+                <th>How</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Weight 60kg</td>
+                <td>Dieting</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Build V-Taper Body</td>
+                <td>Going to the Gym</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Make $10,0000 per month</td>
+                <td>Software Developer,Trading Stock & Stocks Options</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Increase Attractiveness</td>
+                <td>Braces, Fashion and others</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <form autocomplete="on" id="forms">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="name" id="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="email" id="email" required>
+            </div>
+    
+            <div>
+                <label for="password">Password</label>
+                <input type="password"placeholder="enter your password" required>
+            </div>
+    
+            <div>
+                <label for="age">Age</label>
+                <input type="number" placeholder="enter your age" id="age" min="1" max="100" required>
+            </div>
+    
+            <div>
+                <label for="date">Date of Birth</label>
+                <input type="date" placeholder="enter birth date" id="date" min="2000-01-01" required>
+            </div>
+
+            <div>Favorite Food
+                <div>
+                    <input type="checkbox" name="nasilemakayamgoreng" id="nasilemakayamgoreng"> 
+                    <label for="nasilemakayamgoreng">Nasi Lemak Ayam Goreng</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="cheesecakecrepe" id="cheesecakecrepe"> 
+                    <label for="cheesecakecrepe">Cheesecake Crepe </label>
+                </div>
+
+                <div>Gender
+                    <div>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label for="hobbies">Hobbies</label>
+                        <select name="hobbies" id="hobbies">
+                            <option value="read">Youtube</option>
+                            <option value="code">Code</option>
+                            <option value="swim">Trading</option>
+                            <option value="watch videos">Workout</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div>
+                    <label for="bio">Bio</label>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio here"></textarea>
+                </div>
+    
+                <div>
+                    <label for="file">File Upload</label>
+                    <input type="file" name="file" id="file">
+                </div>
+    
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" name="color" id="color">
+                </div>
+    
+            </div>
+    
+    
+            <button type="reset">Reset</button>
+            <button type="submit">submit</button>
+
+        </form>
+        
+        <ul>Travel Destination
+            <li>japan</li>
+            <li>dubai</li>
+        </ul>
+    
+        <ol>Favorite Movies
+            <li>your lies on april</li>
+            <li>orange</li>
+            <li>rage</li>
+            <li>alice in the border land</li>
+            <li>the warewolf game</li>
+        </ol>
+    
+        <ol>Favorite Foods 
+            <li>char kuey tiew
+                <ul>
+                   <li>mee</li>
+                   <li>udang</li>
+                 </ul>
+            </li>
+            <li>nasi lemak
+                <ul>
+                    <li>nasi</li>
+                    <li>ikan bilis</li>
+                 </ul>
+
+        <footer id="footer">
+            <p>irfan13318@gmail.com</p>
+      <p>Contact me at +60 125475765 </p>
+      <p>Copyright &#169;</p>
+
+        </footer>
+
+        </section>
+    </main>
+    
+</body>
+</html>
