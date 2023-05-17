@@ -1,0 +1,44 @@
+@media (max-width:640px){
+    Body{
+        background-color: red;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+@media (min-width:640px){
+    Body{
+        background-color: green;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media (min-width:1024px){
+    Body{
+        background-color: blue;
+    }
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
